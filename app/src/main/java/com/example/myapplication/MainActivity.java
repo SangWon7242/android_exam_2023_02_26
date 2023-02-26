@@ -55,6 +55,8 @@ public class MainActivity extends AppCompatActivity {
 
             return false;
         });
+
+        webViewMain.loadUrl("file:///android_asset/index.html");
     }
 
     private void goToUrl(String url) {
